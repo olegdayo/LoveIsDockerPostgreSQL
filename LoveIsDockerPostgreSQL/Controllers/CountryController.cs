@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Dapper;
+using Npgsql;
 
 namespace LoveIsDockerPostgreSQL.Controllers
 {
@@ -11,16 +14,20 @@ namespace LoveIsDockerPostgreSQL.Controllers
     [Route("[controller]")]
     public class CountryController : ControllerBase
     {
-        /// <summary>
-        /// Returns a user object with specific email.
-        /// </summary>
-        /// <param name="email">Email that belongs to user.</param>
-        /// <returns>The object of user.</returns>
-        [HttpGet("get_user_by_email")]
-        public IActionResult GetUserByEmail([FromQuery] string email)
-        {
+        private const string ConnectionString =
+            "Host=localhost;Port=5432;User Id=postgres;Password=postgres;Database=postgres;";
 
-            return new OkObjectResult(new {Ok="ok"});
+        public CountryController()
+        {
+            
+        }
+        
+        [HttpGet("get_countries")]
+        public async Task<IActionResult> GetCountries()
+        {
+            await using var dbConnection = new NpgsqlConnection(ConnectionString);
+            dbConnection.Open();
+            return new OkObjectResult(dbConnection.Query<string>("SELECT distinct name from oof.countries;"));
         }
     }
 }

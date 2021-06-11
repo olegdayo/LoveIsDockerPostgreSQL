@@ -4,12 +4,5 @@
         <name>LoveIsDockerPostgreSQL</name>
     </assembly>
     <members>
-        <member name="M:LoveIsDockerPostgreSQL.Controllers.CountryController.GetUserByEmail(System.String)">
-            <summary>
-            Returns a user object with specific email.
-            </summary>
-            <param name="email">Email that belongs to user.</param>
-            <returns>The object of user.</returns>
-        </member>
     </members>
 </doc>

@@ -25,3 +25,6 @@
 /Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/obj/Debug/netcoreapp3.1/LoveIsDockerPostgreSQL.xml
 /Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/obj/Debug/netcoreapp3.1/LoveIsDockerPostgreSQL.pdb
 /Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/obj/Debug/netcoreapp3.1/LoveIsDockerPostgreSQL.genruntimeconfig.cache
+/Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/bin/Debug/netcoreapp3.1/Dapper.dll
+/Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/bin/Debug/netcoreapp3.1/Npgsql.dll
+/Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/bin/Debug/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll

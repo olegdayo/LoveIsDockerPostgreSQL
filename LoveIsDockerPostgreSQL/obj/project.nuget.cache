@@ -1,15 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "V2GcXZD/LBU3F/ax0pkel90UZ3hYCjZ2DEoU/dx3GJPA0kTpbvIxftpbnd9iljECGpMXakQeXvqevNc2O0xgtA==",
+  "dgSpecHash": "+lKVHV78EbezgSEG7Gj1cfC2Lvu0xmNs+wURBCxP07PecYguUPgfvJo2HXlo5oETHFpHbx1Yc64Mh1T4AFD/Bg==",
   "success": true,
   "projectFilePath": "/Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL.csproj",
   "expectedPackageFiles": [
+    "/Users/schmitzer/.nuget/packages/dapper/2.0.90/dapper.2.0.90.nupkg.sha512",
     "/Users/schmitzer/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/schmitzer/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/schmitzer/.nuget/packages/npgsql/6.0.0-preview4/npgsql.6.0.0-preview4.nupkg.sha512",
     "/Users/schmitzer/.nuget/packages/swashbuckle.aspnetcore/6.1.4/swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
     "/Users/schmitzer/.nuget/packages/swashbuckle.aspnetcore.swagger/6.1.4/swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
     "/Users/schmitzer/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.1.4/swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
-    "/Users/schmitzer/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.1.4/swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512"
+    "/Users/schmitzer/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.1.4/swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512",
+    "/Users/schmitzer/.nuget/packages/system.reflection.emit.lightweight/4.7.0/system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "/Users/schmitzer/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
