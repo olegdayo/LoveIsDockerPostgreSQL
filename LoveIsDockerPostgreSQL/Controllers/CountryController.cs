@@ -43,5 +43,21 @@ namespace LoveIsDockerPostgreSQL.Controllers
             dbConnection.Open();
             return new OkObjectResult(dbConnection.Query<CountryInfo>("SELECT *  from oof.countries where name = @countryName;", new {countryName}));
         }
+
+        [HttpGet("get_regions")]
+        public async Task<IActionResult> GetRegions()
+        {
+            await using var dbConnection = new NpgsqlConnection(ConnectionString);
+            dbConnection.Open();
+            return new OkObjectResult(dbConnection.Query<string>("SELECT distinct region from oof.countries;"));
+        }
+
+        [HttpGet("get_info_by_region_name")]
+        public async Task<IActionResult> GetRegions([Required] string regionName)
+        {
+            await using var dbConnection = new NpgsqlConnection(ConnectionString);
+            dbConnection.Open();
+            return new OkObjectResult(dbConnection.Query<CountryInfo>("SELECT *  from oof.countries where region = @regionName;", new { regionName }));
+        }
     }
 }

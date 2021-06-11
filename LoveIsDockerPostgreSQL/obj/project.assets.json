@@ -373,19 +373,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/schmitzer/.nuget/packages/": {}
+    "/Users/robertzgonnikov/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL.csproj",
+      "projectUniqueName": "/Users/robertzgonnikov/Projects/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL.csproj",
       "projectName": "LoveIsDockerPostgreSQL",
-      "projectPath": "/Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL.csproj",
-      "packagesPath": "/Users/schmitzer/.nuget/packages/",
-      "outputPath": "/Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/obj/",
+      "projectPath": "/Users/robertzgonnikov/Projects/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL.csproj",
+      "packagesPath": "/Users/robertzgonnikov/.nuget/packages/",
+      "outputPath": "/Users/robertzgonnikov/Projects/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/schmitzer/.nuget/NuGet/NuGet.Config"
+        "/Users/robertzgonnikov/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -395,6 +395,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -406,6 +407,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Dapper": {
             "target": "Package",
@@ -430,6 +432,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.8, 3.1.8]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -438,7 +446,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/schmitzer/.dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
