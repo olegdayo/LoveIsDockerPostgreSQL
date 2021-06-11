@@ -43,7 +43,11 @@ namespace LoveIsDockerPostgreSQL.Controllers
             dbConnection.Open();
             return new OkObjectResult(dbConnection.Query<CountryInfo>("SELECT *  from oof.countries where name = @countryName;", new {countryName}));
         }
-
+        
+        /// <summary>
+        /// Returns the list of regions in the database
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("get_regions")]
         public async Task<IActionResult> GetRegions()
         {
@@ -51,7 +55,12 @@ namespace LoveIsDockerPostgreSQL.Controllers
             dbConnection.Open();
             return new OkObjectResult(dbConnection.Query<string>("SELECT distinct region from oof.countries;"));
         }
-
+        
+        /// <summary>
+        /// Returns info about the country by region.
+        /// </summary>
+        /// <param name="regionName"></param>
+        /// <returns></returns>
         [HttpGet("get_info_by_region_name")]
         public async Task<IActionResult> GetRegions([Required] string regionName)
         {
