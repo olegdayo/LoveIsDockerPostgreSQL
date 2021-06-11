@@ -4,5 +4,18 @@
         <name>LoveIsDockerPostgreSQL</name>
     </assembly>
     <members>
+        <member name="M:LoveIsDockerPostgreSQL.Controllers.CountryController.GetCountries">
+            <summary>
+            Returns the list of countries in the database
+            </summary>
+            <returns>List of countries' names</returns>
+        </member>
+        <member name="M:LoveIsDockerPostgreSQL.Controllers.CountryController.GetCountryInfoByName(System.String)">
+            <summary>
+            Returns info about the specific country by its name
+            </summary>
+            <param name="countryName">A name of the country</param>
+            <returns></returns>
+        </member>
     </members>
 </doc>
