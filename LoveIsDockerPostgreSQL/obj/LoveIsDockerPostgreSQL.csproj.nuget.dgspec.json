@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL.csproj": {}
+  },
+  "projects": {
+    "/Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL.csproj",
+        "projectName": "LoveIsDockerPostgreSQL",
+        "projectPath": "/Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL.csproj",
+        "packagesPath": "/Users/schmitzer/.nuget/packages/",
+        "outputPath": "/Users/schmitzer/Desktop/AndreyTask/LoveIsDockerPostgreSQL/LoveIsDockerPostgreSQL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/schmitzer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/schmitzer/.dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
